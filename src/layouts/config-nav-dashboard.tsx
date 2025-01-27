@@ -13,34 +13,39 @@ export const navData = [
     path: '/',
     icon: icon('ic-analytics'),
   },
+  // {
+  //   title: 'User',
+  //   path: '/user',
+  //   icon: icon('ic-user'),
+  // },
+  // {
+  //   title: 'Product',
+  //   path: '/products',
+  //   icon: icon('ic-cart'),
+  //   info: (
+  //     <Label color="error" variant="inverted">
+  //       +3
+  //     </Label>
+  //   ),
+  // },
+  // {
+  //   title: 'Blog',
+  //   path: '/blog',
+  //   icon: icon('ic-blog'),
+  // },
   {
-    title: 'User',
-    path: '/user',
-    icon: icon('ic-user'),
-  },
-  {
-    title: 'Product',
-    path: '/products',
-    icon: icon('ic-cart'),
-    info: (
-      <Label color="error" variant="inverted">
-        +3
-      </Label>
-    ),
-  },
-  {
-    title: 'Blog',
-    path: '/blog',
-    icon: icon('ic-blog'),
-  },
-  {
-    title: 'Sign in',
+    title: 'Login',
     path: '/sign-in',
     icon: icon('ic-lock'),
   },
   {
-    title: 'Not found',
-    path: '/404',
-    icon: icon('ic-disabled'),
+    title: 'Student',
+    path: '/students',
+    icon: icon('ic-book'),
   },
+  // {
+  //   title: 'Not found',
+  //   path: '/404',
+  //   icon: icon('ic-disabled'),
+  // },
 ];
